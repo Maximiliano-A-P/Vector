@@ -133,7 +133,7 @@ def build_from_folder(folder_path: Path, output_path: Path, title: str = None) -
 
     try:
         branches = []
-        with zipfile.ZipFile(tmp_zip, "w", zipfile.ZIP_DEFLATED) as zf:
+        with zipfile.ZipFile(tmp_zip, "w", zipfile.ZIP_STORED) as zf:
             zf.write(root_cover, root_cover.name)
 
             for bdir in branch_dirs:
