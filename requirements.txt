@@ -1,2 +1,4 @@
 pywebview>=4.4
 pythonnet>=3.0 ; sys_platform == 'win32'
+Pillow>=10.0
+numpy>=1.26
