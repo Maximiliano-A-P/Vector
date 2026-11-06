@@ -17,5 +17,4 @@ pyinstaller --onedir --windowed -y --clean `
   --add-data "templates;templates" `
   --add-data "app.css;." `
   --add-data "app.js;." `
-  --add-data "estructura;estructura" `
   reader_web.py
