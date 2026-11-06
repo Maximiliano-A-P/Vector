@@ -1,1 +1,7 @@
+# Python
 __pycache__/
+
+# PyInstaller
+build/
+dist/
+VECTOR.spec
