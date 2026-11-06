@@ -1,0 +1,21 @@
+templates\index.html
+.gitignore
+app.css
+app.js
+estructura
+library.py
+mapformat.py
+packer_gui.py
+reader_web.py
+reader.py
+requirements.txt
+settings.py
+
+copilado mediante comando (pwsh): 
+pyinstaller --onedir --windowed -y --clean `
+  --name VECTOR `
+  --add-data "templates;templates" `
+  --add-data "app.css;." `
+  --add-data "app.js;." `
+  --add-data "estructura;estructura" `
+  reader_web.py
